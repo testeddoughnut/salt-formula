@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.2](https://github.com/saltstack-formulas/salt-formula/compare/v1.13.1...v1.13.2) (2025-10-13)
+
+
+### Bug Fixes
+
+* **suse:** update pygit2 package name ([21c1492](https://github.com/saltstack-formulas/salt-formula/commit/21c1492686fe4b7d588995ad9a8110d8986614e4))
+
 ## [1.13.1](https://github.com/saltstack-formulas/salt-formula/compare/v1.13.0...v1.13.1) (2025-06-11)
 
 
