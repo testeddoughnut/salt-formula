@@ -27,6 +27,7 @@ Debian:
     sha256=36decef986477acb8ba2a1fc4041bcf9f22229ef6c939d0317c9e36a9d142b34
   libgit2: libgit2-22
   pyinotify: python-pyinotify
+  restart_via_systemd: true
   gitfs:
     pygit2:
       install_from_source: true
@@ -44,6 +45,7 @@ RedHat:
   key_url: '{{ salt_repo_key_url }}'
   pygit2: python-pygit2
   python_git: GitPython
+  restart_via_systemd: true
   gitfs:
     gitpython:
       install_from_source: false
